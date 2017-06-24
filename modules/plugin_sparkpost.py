@@ -51,8 +51,6 @@ class SparkMail(object):
             content_type: content type of the attachment; if set to None,
                 it will be fetched from filename using gluon.contenttype
                 module
-            encoding: encoding of all strings passed to this function (except
-                attachment body)
 
         Content ID is used to identify attachments within the html body;
         in example, attached image with content ID 'photo' may be used in
@@ -103,7 +101,6 @@ class SparkMail(object):
              bcc=None,
              reply_to=None,
              sender=None,
-             encoding='utf-8',
              headers={},
              from_address=None,
              ):
