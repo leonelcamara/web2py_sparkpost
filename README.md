@@ -6,7 +6,7 @@ I've seen a lot of people integrating web2py with SparkPost using SMTP instead o
   
 I would like to be able to use SparkPost without changing any of my mail sending code in a project. This plugin is designed so you can keep sending emails exactly the same way you always did with web2py.   
   
-Finally, I also wanted to start using SparkPost in my web2py projects, so here we are.  
+Finally, I actually wanted to start using SparkPost in my web2py projects, so here we are.  
   
 ## Installation
 
