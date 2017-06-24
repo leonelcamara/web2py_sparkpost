@@ -10,7 +10,7 @@ Finally, I actually wanted to start using SparkPost in my web2py projects, so he
   
 ## Installation
 
-Just copy plugin_sparkpost.py file into your application's modules folder.
+Just copy the plugin_sparkpost.py file into your application's modules folder.
 
 ## Usage
 
