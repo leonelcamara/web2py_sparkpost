@@ -87,7 +87,6 @@ class SparkMail(object):
         settings.sender = sender
         settings.track_opens = True
         settings.track_clicks = True
-        settings.timeout = 60  # seconds
         settings.lock_keys = True
         self.result = {}
         self.error = None
