@@ -19,6 +19,8 @@ A simple way to use would be to put this in one of your model files (usually db.
 
     auth = Auth(db, host_names=myconf.get('host.names'), mailer=mail)
 """
+__version__ = '0.0.2'
+
 import base64
 import logging
 import os
@@ -26,7 +28,7 @@ from gluon.storage import Settings
 from gluon.contenttype import contenttype
 from gluon.fileutils import read_file
 from sparkpost import SparkPost
-from _compat import to_native
+from gluon._compat import to_native
 
 logger = logging.getLogger("web2py")
 

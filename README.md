@@ -21,9 +21,13 @@ A simple way to use would be to put this in one of your model files (usually db.
 
     auth = Auth(db, host_names=myconf.get('host.names'), mailer=mail)
 
+Send emails the way you always did with web2py, described here:  
+http://www.web2py.com/books/default/chapter/29/08/emails-and-sms#Sending-emails
+
 ## Dependencies
 
-- [python-sparkpost](https://github.com/SparkPost/python-sparkpost): SparkPost official python package, you can just put the sparkpost folder in your application modules folder if you want.
+- [python-sparkpost](https://github.com/SparkPost/python-sparkpost): SparkPost official python package, you can just put the sparkpost folder in your application modules folder if you want, make sure to also have its dependencies, namely the requests module.
+- [web2py](https://github.com/web2py/web2py): web2py web framework version 2.15 or higher.
 
 ## Differences to web2py's default mailer
 
